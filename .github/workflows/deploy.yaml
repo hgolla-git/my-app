@@ -25,7 +25,7 @@ jobs:
       run: |
         minikube start
         helm upgrade --install my-app-blue ./my-app -f my-app/values.yaml --set image.tag=${{ github.sha }}
-        # Deploy green environment
+        # Deploy green environment: Test
         helm upgrade --install my-app-green ./my-app -f my-app/values-green.yaml --set image.tag=${{ github.sha }}
         # Test green environment (add your test logic here)
         # Switch traffic to green
