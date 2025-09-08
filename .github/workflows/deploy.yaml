@@ -1,4 +1,4 @@
-name: Blue-Green Deployment-test
+name: Test my logic
 on:
   push:
     branches: [ main ]
