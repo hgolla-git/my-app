@@ -1,4 +1,4 @@
-name: Test my logic
+name: Test my logic1
 on:
   push:
     branches: [ main ]
